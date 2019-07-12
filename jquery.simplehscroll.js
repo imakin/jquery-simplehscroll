@@ -88,7 +88,7 @@ $.fn.simplehscroll = function(config) {
                     if (repeat) {
                         repeat = repeat - 1;
                         if (repeat>0) {
-                            wrapper.trigger("forward", repeat);
+                            wrapper.trigger("backward", repeat);
                         }
                     }
                 }
